@@ -1,6 +1,6 @@
 .box {
   height: 100px;
-  width: 400px;
+  min-width: 100px;
 }
 
 .black {
@@ -15,29 +15,29 @@
 .grey {
   background-color: grey;
 }
-.yellow{
+.yellow {
   background-color: yellow;
 }
-.orange{
+.orange {
   background-color: orange;
 }
-.red{
+.red {
   background-color: red;
 }
 
-.images-wrapper {
-  display: flex;
-  flex-direction: column;
+.inner {
   background-color: #dddddd;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  gap: 20px;
-  overflow-y: scroll;
+  margin: auto;
+  width: 300px;
+  overflow-x: scroll;
 }
 
-.inner{
+.inner::-webkit-scrollbar {
+  display: none;
+}
+
+.images-wrapper {
+  padding: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 20px;
 }
