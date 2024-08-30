@@ -15,6 +15,15 @@
 .grey {
   background-color: grey;
 }
+.yellow{
+  background-color: yellow;
+}
+.orange{
+  background-color: orange;
+}
+.red{
+  background-color: red;
+}
 
 .images-wrapper {
   display: flex;
@@ -23,4 +32,12 @@
   justify-content: center;
   align-items: center;
   width: 500px;
+  gap: 20px;
+  overflow-y: scroll;
+}
+
+.inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
