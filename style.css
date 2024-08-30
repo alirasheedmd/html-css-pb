@@ -1,0 +1,26 @@
+.box {
+  height: 100px;
+  width: 400px;
+}
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.grey {
+  background-color: grey;
+}
+
+.images-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #dddddd;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
